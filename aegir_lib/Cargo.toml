@@ -1,12 +1,12 @@
 [package]
-name = "template_lib"
+name = "aegir_lib"
 version = "0.1.0"
-authors = ["Leafwing Studios"]
+authors = ["Nigel Dunn <nigel.dunn@gmail.com>"]
 license = "MIT OR Apache 2.0"
 edition = "2021"
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", rev="f7fbfaf", default-features = false, features = [
+bevy = { git = "https://github.com/bevyengine/bevy", rev="12c6fa7", default-features = false, features = [
     "bevy_asset",
     "bevy_core_pipeline",
     "bevy_gilrs",
